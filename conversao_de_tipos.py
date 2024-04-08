@@ -23,3 +23,23 @@ print(dindin)
 
 print(dindin / 2)
 print(dindin // 2)
+
+#numérico para string 
+
+gasto = 10.50
+idade = 28
+print(str(gasto))
+
+print(str(idade))
+
+texto = f"idade {idade} preco {dindin}"
+print(texto)
+
+#String para número
+
+money = "10.50"
+idade = "28"
+
+print(float(money))
+
+print(int(idade))
