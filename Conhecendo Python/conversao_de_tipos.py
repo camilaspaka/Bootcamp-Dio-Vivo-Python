@@ -43,3 +43,7 @@ idade = "28"
 print(float(money))
 
 print(int(idade))
+
+print(5 //2)
+
+float("a")
