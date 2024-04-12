@@ -1,10 +1,11 @@
 <h1>
     <a href="https://github.com/camilaspaka">
      <img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"></a>
-    <span> Meu Read.me é bonitão </span>
+    <span> Python AI Backend Developer Bootcamp</span>
 </h1>
 
-Todo dia é sempre um novo dia para ser melhor do que você era ontem!
+Todo dia é sempre um novo dia para ser melhor do que você era ontem!<p>
+Essa pasta vai conter todos os topicos de programação aplicados no curso, quando possivel estarem nessa pasta, obviamente!
 
 ---
 
