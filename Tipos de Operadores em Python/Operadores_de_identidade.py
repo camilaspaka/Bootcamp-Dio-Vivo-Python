@@ -7,3 +7,6 @@ curso is nome_curso
 curso is not nome_curso
 
 saldo is limite
+
+print(saldo is limite)
+print(saldo is not limite)
