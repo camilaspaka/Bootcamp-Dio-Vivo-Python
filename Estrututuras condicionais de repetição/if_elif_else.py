@@ -2,7 +2,7 @@ conta_normal = 20000
 conta_universitaria = 5000
 saque = 5000
 saldo = 2000
-cheque_especial = 500
+cheque_especial = 5000
 if conta_normal:
     if saldo >= saque:
         print("Saque realizado com sucesso")
