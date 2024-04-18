@@ -5,14 +5,15 @@
 </h1>
 
 Todo dia é sempre um novo dia para ser melhor do que você era ontem!<p>
-Essa pasta vai conter todos os topicos de programação aplicados no curso, quando possivel estarem nessa pasta, obviamente!
+Essa pasta vai conter todos os topicos de programação aplicados no curso, quando possivel estarem nessa pasta, obviamente!<p>
+
 
 ---
 
 # [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=DD75DD&size=35&center=true&vCenter=true&width=1000&lines=Oi!Eu+me+chamo+Camila+Spakauskas;+Estou+com+29+anos+solteira+terminando+ADS;Sou+uma+Desenvolvedora+Jr+em+treinamento!)](https://git.io/typing-svg)
 
-Trabalhei por mais de 3 anos como suporte técnico, trabalhei com muita coisa distinta e aprendi muito nesses empregos e posso dizer que sinceramente pouca coisa me surpreende.<p>
-Estou estudando desde agosto de 2023 Python e tenho me dedicado boa parte do meu dia para meus estudos e espero conseguir ingressar na área o quanto antes!
+Trabalhei por mais de 3 anos com suporte técnico, trabalhei com muita coisa distinta, já fui até caixa de supermecado e aprendi muito nesses empregos e posso dizer que sinceramente eu não tenho medo algum de botar a cara a tapa e distancia não é problema.  <p>
+Estou estudando Python ativamente desde agosto de 2023 Python e tenho me dedicado boa parte do meu dia para meus estudos e espero conseguir ingressar na área o quanto antes!
 
 Todo e qualquer projeto meu que está pronto ou em andamento tem possibilidade de que eu faça alguma alteração neles futuramente ou até mesmo nesse exato momento em que você está lendo eu já esteja modificando algo, vai saber? 
 _____

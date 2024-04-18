@@ -9,5 +9,7 @@ def sacar(valor):
 
     print("Retire seu dinheiro")
 
-
+def depositar(valor):
+    saldo = 500
+    saldo += valor
 
