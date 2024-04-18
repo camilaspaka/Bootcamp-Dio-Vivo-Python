@@ -15,3 +15,8 @@ elif conta_universitaria:
         print("Saque autorizado")
     else:
         print("Saque não autorizado")
+
+#if ternario
+
+status = "Sucesso" if saldo >- saque else "Falha"
+print(f"{status} ao realizar o saque")
