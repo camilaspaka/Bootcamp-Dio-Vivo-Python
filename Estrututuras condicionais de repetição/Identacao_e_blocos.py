@@ -6,7 +6,7 @@ def sacar(valor):
 
     if saldo >= valor:
         print("Valor sacado")
-        print(saldo)
+        print("Retire seu dinheiro")
 
 
 
