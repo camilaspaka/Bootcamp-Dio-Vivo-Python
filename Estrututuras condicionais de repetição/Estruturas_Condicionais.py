@@ -29,3 +29,13 @@ elif opcao == 2:
     print("Exibindo o extrato...")
 else:
     sys.exit("Opção invalidade")
+
+#Exemplo 
+
+maior_idade = 18
+
+idade = int(input("Informe sua idade: "))
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
