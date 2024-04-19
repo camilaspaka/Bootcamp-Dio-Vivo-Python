@@ -14,11 +14,15 @@ print(a)
 
 
 
-#for  
+#for /else
 texto = input("Informe um texto: ")
 Vogais = "AEIOU"
 
 for letra in texto:
     if letra.upper() in Vogais:
         print(letra, end="")
-print()
+else:
+    print()
+    print("Isso é o que sobra")
+
+
