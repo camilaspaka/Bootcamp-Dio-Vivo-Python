@@ -27,8 +27,10 @@ else:
 
 #range
 
-for numero in range(0, 11):
-    print(numero, end=" ")
+for zero in range(0, 11):
+    print(zero, end=" ")
+
+print()
 
 for numero in range(0, 51, 5):
     print(numero, end=" ")
