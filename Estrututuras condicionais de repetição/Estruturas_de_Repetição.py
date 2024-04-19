@@ -25,4 +25,10 @@ else:
     print()
     print("Isso é o que sobra")
 
+#range
 
+for numero in range(0, 11):
+    print(numero, end=" ")
+
+for numero in range(0, 51, 5):
+    print(numero, end=" ")
