@@ -1,36 +1,12 @@
-#Exemplo sem repetição
-
-a = int(input("Informe um número inteiro: "))
-print(a)
-
-a += 1
-print(a)
-
-a += 1
-
-print(a)
-
-#Com repetição
 
 
+#while
 
-#for /else
-texto = input("Informe um texto: ")
-Vogais = "AEIOU"
+opcao = -1
+while opcao != 0:
+    opcao = int(input("[1]Sacar \n[2] Extrato \n [0] Sair \n: "))
 
-for letra in texto:
-    if letra.upper() in Vogais:
-        print(letra, end="")
-else:
-    print()
-    print("Isso é o que sobra")
-
-#range
-
-for zero in range(0, 11):
-    print(zero, end=" ")
-
-print()
-
-for numero in range(0, 51, 5):
-    print(numero, end=" ")
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo o extrato...")
