@@ -1,13 +1,8 @@
 nome = "Camila Pinho Spakauskas"
 
-nome[0]
-print(nome)
-nome[9]
-
-nome[10:]
-
-nome[10:16:2]
-
-nome[:]
-
-nome[::-1]
+print(nome[0])
+print(nome[:9])
+print(nome[10:])
+print(nome[10:16:2])
+print(nome[:])
+print(nome[::-1])
