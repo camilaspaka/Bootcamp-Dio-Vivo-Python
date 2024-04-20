@@ -15,3 +15,12 @@ mensagem1 = f'''
 
 print(mensagem)
 print(mensagem1)
+
+mensagem2 = f"""
+        ==============Menu==============
+        Miojo de Tomate
+        Miojo de Galinha 
+        Miojo de Galinha Caipira
+"""
+
+print(mensagem2)
