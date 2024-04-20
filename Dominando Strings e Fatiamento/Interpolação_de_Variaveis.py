@@ -20,3 +20,12 @@ print("Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {pro
 #f-string
 
 print(f"Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")
+
+
+#formatar strings com f-strings
+
+PI = 3.14159
+
+print(f"Valor de PI: {PI:.2f}")
+
+print(f"Valor de PI: {PI:10.2f}")
