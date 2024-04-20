@@ -6,9 +6,9 @@ print(curso.title())
 
 #eliminando espaços em branco
 
-print(curso.strip())
-print(curso.lstrip())
-print(curso.rstrip())
+print(curso.strip() + ".")
+print(curso.lstrip() + ".")
+print(curso.rstrip() + ".")
 
 #junções e centralização
 
