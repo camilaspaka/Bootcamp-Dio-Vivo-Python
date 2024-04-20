@@ -30,7 +30,7 @@ elif opcao == 2:
 else:
     sys.exit("Opção invalidade")
 
-#Exemplo 
+#Exemplo 2
 
 maior_idade = 18
 
