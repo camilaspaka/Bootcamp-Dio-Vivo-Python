@@ -13,6 +13,10 @@ print("Olá, me chamo {}. Eu tenho {} anos de idade, trabalho como {} e estou ma
 
 print("Olá, me chamo {3}. Eu tenho {2} anos de idade, trabalho como {1} e estou matriculada no curso de {0}.".format(linguagem, profissao, idade, nome))
 
-print("Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguaugem}.".format(nome=nome, idade=idade, profissao=profissao, linguagem=linguagem))
+print("Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.".format(nome=nome, idade=idade, profissao=profissao, linguagem=linguagem))
 
-print("Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguaguem}.".format(**pessoa))
+print("Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")#.format(**pessoa))
+
+#f-string
+
+print(f"Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")
