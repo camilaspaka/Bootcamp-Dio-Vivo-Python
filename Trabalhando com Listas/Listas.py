@@ -7,8 +7,8 @@ print(frutas1)
 letras = list("python")
 print(letras)
 
-numeros = list(range(10))
-print(numeros)
+numero1 = list(range(10))
+print(numero1)
 
 carro = ["Ferrari", "F8", 4200000, 2024, 2900, "São Paulo", True]
 print(carro)
@@ -34,3 +34,18 @@ print(lista[::-1])
 carros = ["gol", "celta", "kicks", "palio", "sandero", "ferrari"]
 for carro in carros:
     print(carro)
+
+carros = ["gol", "celta", "kicks", "palio", "sandero", "ferrari"]
+for indice, carro in enumerate(carros):
+    print(f"{indice}: {carro}")
+
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+pares = [numero for numero in numeros if numero % 2 == 0]
+quadraro = []
+
+for numero in numeros:
+    if numero % 2 == 0:
+        print(pares)
+for numero in numeros:
+    print(quadraro.append(numero ** 2))
