@@ -30,3 +30,7 @@ print(lista[1:3])
 print(lista[0:3:2])
 print(lista[::])
 print(lista[::-1])
+
+carros = ["gol", "celta", "kicks", "palio", "sandero", "ferrari"]
+for carro in carros:
+    print(carro)
