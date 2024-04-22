@@ -1,5 +1,5 @@
-frutas = ["laranja", "maca", "uva"]
-print(frutas)
+frutas = ["laranja", "maca", "uva", "manga", "pera", "morango"]
+print(frutas[-4])
 
 frutas1 = []
 print(frutas1)
