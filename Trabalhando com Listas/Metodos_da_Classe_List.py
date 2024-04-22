@@ -56,7 +56,25 @@ linguagens =["python", "js", "c", "java", "csharp"]
 linguagens.remove("c")
 print(linguagens)
 
-#
+#[].reverse
+
+linguagens =["python", "js", "c", "java", "csharp"]
+linguagens.reverse()
+print(linguagens)
+
+#[].sort
+
+linguagens =["python", "js", "c", "java", "csharp"]
+print(linguagens.sort())
+
+linguagens =["python", "js", "c", "java", "csharp"]
+print(linguagens.sort(reverse=True))
+
+linguagens =["python", "js", "c", "java", "csharp"]
+print(linguagens.sort(key=lambda x: len(x)))
+
+linguagens =["python", "js", "c", "java", "csharp"]
+print(linguagens.sort(key=lambda x: len(x), reverse=True))
 
 #[].clear
 
