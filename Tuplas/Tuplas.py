@@ -29,3 +29,23 @@ print(tupla[1:3])
 print(tupla[0:3:2])
 print(tupla[::])
 print(tupla[::-1])
+
+carros = ("gol", "celta", "kicks", "up", "palio", "sandero")
+for carro in carros:
+    print(carro)
+for indice, carro in enumerate(carros):
+    print(f"{indice}: {carro}")
+
+#().count
+
+cores = ("vermelho", "roxo", "azul", "verde", "preto", "verde", "roxo", "verde")
+
+print(cores.count("verde"))
+print(cores.count("roxo"))
+print(cores.count("preto"))
+
+#().index
+
+linguagens = ("python", "java", "c", "js", "go",)
+print(linguagens.index("java"))
+print(linguagens.index("python"))
