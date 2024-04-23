@@ -10,7 +10,7 @@ Essa pasta vai conter todos os topicos de programação aplicados no curso, quan
 
 ---
 
-# [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=DD75DD&size=35&center=true&vCenter=true&width=1000&lines=Oi!Eu+me+chamo+Camila+Spakauskas;+Estou+com+29+anos+solteira+terminando+ADS;Sou+uma+Desenvolvedora+Jr+em+treinamento!)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=DD75DD&size=35&center=true&vCenter=true&width=1000&lines=Oi!Eu+me+chamo+Camila+Spakauskas;+Tenho+29+anos+solteira+terminando+ADS;Sou+uma+Desenvolvedora+Jr+em+treinamento!)](https://git.io/typing-svg)
 
 Trabalhei por mais de 3 anos com suporte técnico, trabalhei com muita coisa distinta, já fui até caixa de supermecado e aprendi muito nesses empregos e posso dizer que sinceramente eu não tenho medo algum de botar a cara a tapa e distancia não é problema.  <p>
 Estou estudando Python ativamente desde agosto de 2023 Python e tenho me dedicado boa parte do meu dia para meus estudos e espero conseguir ingressar na área o quanto antes!
