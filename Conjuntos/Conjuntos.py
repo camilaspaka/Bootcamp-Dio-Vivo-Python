@@ -87,7 +87,17 @@ numeros.pop()
 print(numeros)
 
 #{}.remove
+numeros = {1, 2, 3, 4, 5, 4, 6, 7, 8, 9, 2, 8, 9, 2, 3,}
+print(numeros)
+numeros.remove(0)
+print(numeros)
 
-#{}.len
+#len
+numeros = {1, 2, 3, 4, 5, 4, 6, 7, 8, 9, 2, 8, 9, 2, 3,}
+len(numeros)
 
 #{}.in
+numeros = {1, 2, 3, 4, 5, 4, 6, 7, 8, 9, 2, 8, 9, 2, 3,}
+1 in numeros
+10 in numeros 
+
