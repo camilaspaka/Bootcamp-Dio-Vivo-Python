@@ -49,3 +49,8 @@ print(cores.count("preto"))
 linguagens = ("python", "java", "c", "js", "go",)
 print(linguagens.index("java"))
 print(linguagens.index("python"))
+
+#len
+
+linguagens = ("python", "java", "c", "js", "go",)
+print(linguagens)
