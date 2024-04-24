@@ -22,3 +22,10 @@ telefone = contatos["camilaspaka@gmail.com"]["telefone"]
 print(telefone)
 extra = contatos["camilaspaka@gmail.com"]
 print(extra)
+
+for chave in contatos:
+    print(chave, contatos[chave])
+
+for chave, valor in contatos.items():
+    print(chave, valor)
+
