@@ -16,6 +16,9 @@ print(dados)
 
 contatos = {
     "camilaspaka@gmail.com": {"nome": "Camila", "telefone": "1111-2222"},
-    "mariliaspaka@gmail.com": {"nome": "Marilia", "telefone": "2222-3333"},
+    "mariliaspaka@gmail.com": {"nome": "Marilia", "telefone": "2222-3333"},"extra": {"a": 1},
 }
-contatos["camilaspaka@gmail.com"]["telefone"]
+telefone = contatos["camilaspaka@gmail.com"]["telefone"]
+print(telefone)
+extra = contatos["camilaspaka@gmail.com"]
+print(extra)
