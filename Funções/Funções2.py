@@ -7,8 +7,12 @@ def retorna_antecessor_e_sucessor(numero):
     
     return antecessor, sucessor
 
+def func_3():
+    print("Olá mundo")
+
+
 calcular_total([10, 20, 34])
 retorna_antecessor_e_sucessor(10)
 
 print(calcular_total([10, 20, 34]))
-print(retorna_antecessor_e_sucessor(10))
+print(retorna_antecessor_e_sucessor(10))#retornou com uma tupla
