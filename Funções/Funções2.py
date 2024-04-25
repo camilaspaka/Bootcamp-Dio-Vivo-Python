@@ -9,7 +9,7 @@ def retorna_antecessor_e_sucessor(numero):
 
 def func_3():
     print("Olá mundo")
-
+    return None
 
 calcular_total([10, 20, 34])
 retorna_antecessor_e_sucessor(10)
