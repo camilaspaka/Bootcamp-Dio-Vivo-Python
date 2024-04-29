@@ -16,3 +16,6 @@ consumo = float(input("Qual o consumo?: "))
 plano_recomendado = recomendar_plano(consumo)
 
 print("O plano recomendado para o seu consumo é:", plano_recomendado)
+
+#Detalhe importante que vale resaltar, pelo desafio no site, o código da diversos erros e é necessaria varias alterações
+#quando alterado ao maximo, é verificado que o print tem que ser simples e o input vazio, só assim passa no desafio
