@@ -1,20 +1,14 @@
-# TODO: Crie uma Lista 'itens' para armazenar os equipamentos:
-Lista_Perifericos["Antena", "Roteador", "Switch"]
-Lista_Produto["Servidor","Cabinet_Rack","Acess_Point"]
-Lista_Cabos["Edge_Routers", "Patch_Cord", "UPS"]
 
-# TODO: Crie um loop para solicita os itens ao usuário:
+itens =["Antena", "Roteador", "Switch", "Servidor","Cabinet_Rack","Acess_Point", "Edge_Routers", "Patch_Cord", "UPS"]
 
-# TODO: Solicite o item e armazena na variável "item":
+for i in range(3):
+    item = input()
+    itens.append(item)
 
-# TODO: Adicione o item à lista "itens":
-
-
-# Exibe a lista de itens
 print("Lista de Equipamentos:")  
 for item in itens:
-    # Loop que percorre cada item na lista "itens"
     print(f"- {item}")
 
 
 #copiei diretamente do curso e é isso, vou arrumando e ta ok
+#ok vejamos se vai ou nah
