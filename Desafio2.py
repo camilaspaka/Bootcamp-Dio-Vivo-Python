@@ -1,7 +1,7 @@
 
-itens =["Antena", "Roteador", "Switch", "Servidor","Cabinet_Rack","Acess_Point", "Edge_Routers", "Patch_Cord", "UPS"]
+itens = []
 
-for i in range(3):
+for _ in range(3):
     item = input()
     itens.append(item)
 
@@ -12,3 +12,4 @@ for item in itens:
 
 #copiei diretamente do curso e é isso, vou arrumando e ta ok
 #ok vejamos se vai ou nah
+#Não era para ter informação dentro da lista, ok anotado
