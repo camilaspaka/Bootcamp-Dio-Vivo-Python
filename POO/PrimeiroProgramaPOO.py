@@ -30,3 +30,5 @@ class Bicicleta:
     def _str_(self):
         return f"Bicicleta: cor={self.cor}, modelo={self.modelo}, ano={self.ano}, valor={self.valor}"
 
+b1 = Bicicleta()
+b1._str_()
