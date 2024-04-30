@@ -27,11 +27,6 @@ class Bicicleta:
     def valor(self):
         print("660")
 
-b1 = Bicicleta()
-b1.buzinar()
-b1.correr()
-b1.parar()
-b1.cor()
-b1.modelo()
-b1.ano()
-b1.valor()
+    def _str_(self):
+        return f"Bicicleta: cor={self.cor}, modelo={self.modelo}, ano={self.ano}, valor={self.valor}"
+
