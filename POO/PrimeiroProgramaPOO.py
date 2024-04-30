@@ -15,8 +15,23 @@ class Bicicleta:
     def correr(self):
         print("vrumvrum")
 
+    def cor(self):
+        print("Vermelho")
+
+    def modelo(self):
+        print("desconhecido")
+
+    def ano(self):
+        print("2022")
+
+    def valor(self):
+        print("660")
+
 b1 = Bicicleta()
 b1.buzinar()
 b1.correr()
 b1.parar()
-
+b1.cor()
+b1.modelo()
+b1.ano()
+b1.valor()
