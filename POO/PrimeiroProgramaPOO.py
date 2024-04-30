@@ -27,8 +27,18 @@ class Bicicleta:
     def valor(self):
         print("660")
 
+    #def _str_(self):
+     #   return f"Bicicleta: cor={self.cor}, modelo={self.modelo}, ano={self.ano}, valor={self.valor}"
+
     def _str_(self):
-        return f"Bicicleta: cor={self.cor}, modelo={self.modelo}, ano={self.ano}, valor={self.valor}"
+        return f"{self.__class__.__name__}: {[f'{chave}={valor}' for chave, valor in self.__dict__.items()]}"
+
 
 b1 = Bicicleta()
-b1._str_()
+b1.buzinar()
+b1.correr()
+b1.parar()
+b1.cor()
+b1.modelo()
+b1.ano()
+b1.valor()
