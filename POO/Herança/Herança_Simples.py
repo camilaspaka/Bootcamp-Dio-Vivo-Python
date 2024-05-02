@@ -8,7 +8,7 @@ class Veiculo:
         print("Ligando motor")
 
     def _str_(self):
-        return self.cor
+        return f"{self.__class__.__name__}: {','.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
 class Motocicleta(Veiculo):
     pass
