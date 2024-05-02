@@ -14,7 +14,8 @@ class Carro(Veiculo):
     pass
 
 class Caminhao(Veiculo):
-    pass
+    def esta_carregado(self):
+        print("Não estou carregado")
 
 moto = Motocicleta("preta", "abc-1234", 2)
 print(moto)
@@ -25,4 +26,4 @@ carro.ligar_motor()
 
 caminhao = Caminhao("roxo","fgd-8787", 8)
 caminhao.ligar_motor()
-
+caminhao.esta_carregado()
