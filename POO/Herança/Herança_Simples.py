@@ -16,4 +16,13 @@ class Carro(Veiculo):
 class Caminhao(Veiculo):
     pass
 
-moto = Motocicleta()
+moto = Motocicleta("preta", "abc-1234", 2)
+print(moto)
+moto.ligar_motor()
+
+carro = Carro("branco", "xde-0000", 4)
+carro.ligar_motor()
+
+caminhao = Caminhao("roxo","fgd-8787", 8)
+caminhao.ligar_motor()
+
