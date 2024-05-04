@@ -8,4 +8,4 @@ class Conta:
         pass
 
 conta = Conta(100)
-print(conta._saldo)
+print(conta.saldo)
