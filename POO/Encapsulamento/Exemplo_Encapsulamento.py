@@ -3,9 +3,11 @@ class Conta:
         self.saldo = saldo
         
     def depositar(self, valor):
-        pass
+        self._saldo += valor
+
     def sacar(self,valor):
-        pass
+        self._saldo -= valor
 
 conta = Conta(100)
-print(conta.saldo)
+conta.depositar(100)
+print(conta._saldo)
