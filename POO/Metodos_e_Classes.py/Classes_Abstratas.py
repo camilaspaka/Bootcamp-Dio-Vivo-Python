@@ -8,6 +8,6 @@ class ControleRemoto:
 class ControleTV:
     pass
 
-ControleTV = ControleTV()
+controle = ControleTV()
 controle.ligar()
 controle.desligar()
