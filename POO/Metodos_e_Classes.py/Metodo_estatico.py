@@ -4,9 +4,9 @@ class Pessoa:
         self.idade = idade
     
     @classmethod
-    def criar_apartir_data_nascimento(self, ano, mes, dia, nome):
+    def criar_apartir_data_nascimento(cls, ano, mes, dia, nome):
         idade = 2024 - ano
-        return Pessoa(nome, idade)
+        return cls(nome, idade)
 
 p = Pessoa("Camila", 29)
 print(p.nome, p.idade)
