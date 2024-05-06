@@ -14,5 +14,8 @@ def mostrar_valores(*objs):
     
 cah = Estudante("Camila", 24951)
 mah = Estudante("Marilia", 47859)
-
 mostrar_valores(cah, mah)
+
+Estudante.escola = "Python"
+reh = Estudante("Renato", 68789)
+mostrar_valores(cah, mah, reh)
