@@ -1,4 +1,6 @@
-class ControleRemoto:
+from abc import ABC
+
+class ControleRemoto(ABC):
     def ligar(self):
         pass
 
