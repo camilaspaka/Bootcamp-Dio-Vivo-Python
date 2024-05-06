@@ -8,7 +8,12 @@ class ControleRemoto(ABC):
         pass
 
 class ControleTV:
-    pass
+    def ligar(self):
+        print("Ligando")
+        print("Tv ligada")
+    def desligar(self):
+        print("Desligando a TV")
+        print("Desligou")
 
 controle = ControleTV()
 controle.ligar()
