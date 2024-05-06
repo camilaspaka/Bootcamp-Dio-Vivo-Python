@@ -10,3 +10,6 @@ class Estudante:
     
 cah = Estudante("Camila", 24951)
 mah = Estudante("Marilia", 47859)
+
+print(cah)
+print(mah)
