@@ -9,6 +9,7 @@ def duplicar(func):
 @duplicar
 def aprender(tecnologia):
     print(f'Estou aprendendo {tecnologia}')
+    return tecnologia.upper()
 
 
 aprender('Python')
