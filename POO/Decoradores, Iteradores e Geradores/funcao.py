@@ -5,11 +5,27 @@ def calcular(operacao):
     def subtrair(a, b):
         return a - b
     
+    def multiplicar(a, b):
+            return a * b
+    
+    def dividir(a, b):
+            return a / b
+    
     match operacao:
         case "+":
             return somar
         case "-":
             return subtrair
+        case "*":
+            return multiplicar
+        case "/":
+            return dividir
         
-resultado = calcular("+")(1, 3)
-print(resultado)
+op = calcular("+")
+print(op(180, 90))
+op = calcular("-")
+print(op(180, 90))
+op = calcular("*")
+print(op(180, 90))
+op = calcular("/")
+print(op(180, 90))
