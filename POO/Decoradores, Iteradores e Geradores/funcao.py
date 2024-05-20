@@ -5,10 +5,11 @@ def calcular(operacao):
     def subtrair(a, b):
         return a - b
     
-    if operacao == "+":
-        return somar
-    else:
-        return subtrair
-    
+    match operacao:
+        case "+":
+            return somar
+        case "-":
+            return subtrair
+        
 resultado = calcular("+")(1, 3)
 print(resultado)
