@@ -8,7 +8,6 @@ def incentivar_aprender(nome):
 
 def executar(funcao):
     print('executando executar')
-    return funcao('Cah')
+    return funcao('Camila')
 
-executar(incentivar_aprender)
-executar(incentivar_aprender)
+print(executar(dizer_oi))
