@@ -13,3 +13,5 @@ def fetch_products(api_url, max_pages=100):
 
 for product in fetch_products("http://api.example.com/products"):
     print(product['name'])
+
+#uai porque kct nao funfa? 
