@@ -1,12 +1,10 @@
-class Foo:
-    def hello(self):
-        print(self.__class__.__name__.lower())
+def capitalize_decorator(func): 
+    def wrapper(): 
+        return func().upper() 
+    return wrapper 
 
+@capitalize_decorator 
+def greet(): 
+    return "hello" 
 
-class Bar(Foo):
-    def hello(self):
-        return super().hello()
-
-
-bar = Bar()
-bar.hello()
+print(greet())
