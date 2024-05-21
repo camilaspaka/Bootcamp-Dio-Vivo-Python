@@ -7,7 +7,7 @@ class FileIterator:
     
     def _next_(self):
         line = self.file.readline()
-        if line =/ '':
+        if line + '':
            return line 
         else:
             self.file.close()
