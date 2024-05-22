@@ -6,10 +6,10 @@ tempo_medio = 45
 tempo_grande = 60
 data_atual = datetime.now()
 
-if tipo_carro =='P':
+if tipo_carro == 'P':
     data_estimada = data_atual + timedelta(minutes=tempo_pequeno)
     print(f'O carro chegou: {data_atual} e ficará pronto ás {data_estimada}')
-elif tipo_carro=='M':
+elif tipo_carro == 'M':
     data_estimada = data_atual + timedelta(minutes=tempo_medio)
     print(f'O carro chegou: {data_atual} e ficará pronto ás {data_estimada}')
 else:
