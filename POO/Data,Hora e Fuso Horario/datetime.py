@@ -1,6 +1,6 @@
-from datetime import date
+import datetime 
 
-data = date(2024, 5, 22)
-print(data)
+class datetime(2024, 5, 22):
+    pass
+print()
 
-print(date.today())
