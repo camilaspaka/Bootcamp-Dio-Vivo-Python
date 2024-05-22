@@ -1,4 +1,6 @@
-import datetime
+from datetime import date
 
-d = datetime.date(2024, 22, 5)
-print(d)
+data = date(2024, 5, 22)
+print(data)
+
+print(date.today())
