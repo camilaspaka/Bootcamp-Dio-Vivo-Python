@@ -1,5 +1,4 @@
-it = iter([1, 2, 3]) 
-print(next(it)) 
-print(next(it)) 
-print(next(it)) 
-print(next(it))
+from datetime import datetime, timedelta 
+
+d = datetime(2023, 1, 1) 
+new_date = d + timedelta(days=10) 
