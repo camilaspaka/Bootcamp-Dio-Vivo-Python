@@ -1,7 +1,8 @@
 import os
 import shutil
+
 #cria diretorio
-os.mkdir("exemplo")
+os.mkdir("old.txt")
 #renomeia arquivo
 os.rename("old.txt", "new.txt")
 #remove arquivo
