@@ -2,7 +2,7 @@ import os
 import shutil
 
 #cria diretorio
-os.mkdir("old.txt")
+os.mkdir("exemplo")
 #renomeia arquivo
 os.rename("old.txt", "new.txt")
 #remove arquivo
