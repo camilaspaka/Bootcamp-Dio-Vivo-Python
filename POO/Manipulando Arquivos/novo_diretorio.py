@@ -7,3 +7,5 @@ ROOT_PATH = Path(__file__).parent
 
 arquivo = open("novo.txt", "w")
 arquivo.close()
+
+os.rename(ROOT_PATH / "novo.txt", ROOT_PATH / "alterando.txt")
