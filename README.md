@@ -6,6 +6,7 @@
 
 Todo dia é sempre um novo dia para ser melhor do que você era ontem!<p>
 Essa pasta vai conter todos os topicos de programação aplicados no curso, quando possivel estarem nessa pasta, obviamente!<p>
+A vida é cheia de supresas não é?
 
 
 ---
